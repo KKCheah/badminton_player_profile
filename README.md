@@ -12,7 +12,7 @@ Welcome to this project. This is a badminton player profile app which will be us
 This app is a simple CRUD app to store badminton player information
 
 ## How to run
-1. Currently only then Spring Boot portion can be built and ran by going to the badminton_player_profile directory and running on terminal with "mvn spring-boot:run"
+1. Currently only the Spring Boot portion can be built and run by going to the badminton_player_profile directory and running on terminal with "mvn spring-boot:run"
 * requires java and maven to run, links to install Java and Maven are below
 
 
