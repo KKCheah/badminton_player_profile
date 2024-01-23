@@ -16,10 +16,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class ControllerTest {
 
     @Autowired
-    MockMvc mockMvc;
+    private MockMvc mockMvc;
 
     @Test
-    void testGet() throws Exception{
+    public void testGet() throws Exception{
         MockHttpServletRequestBuilder request = MockMvcRequestBuilders
                 .get("/test")
                 .contentType(MediaType.APPLICATION_JSON);
